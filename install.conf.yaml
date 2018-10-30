@@ -12,3 +12,7 @@
         force: true
     ~/.hyper.js: hyper
         force: true
+    ~/.hyper.js: hyper
+        force: true
+    "~/Library/Application Support/Code/User/settings.json":
+        force: true
