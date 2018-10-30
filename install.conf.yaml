@@ -3,16 +3,18 @@
 - link:
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
-    ~/.gitconfig: gitconfig
-        force: true
+    ~/.gitconfig:
+      path: gitconfig
+      force: true
     ~/.ssh/config:
-        path: ssh/config
-        create: true
-    ~/.zshrc: zshrc
-        force: true
-    ~/.hyper.js: hyper
-        force: true
-    ~/.hyper.js: hyper
-        force: true
-    "~/Library/Application Support/Code/User/settings.json":
-        force: true
+      path: ssh/config
+      create: true
+    ~/.zshrc:
+      path: zshrc
+      force: true
+    ~/.hyper.js:
+      path: hyper
+      force: true
+    ~/Library/Application Support/Code/User/settings.json:
+      path: vscode
+      force: true
