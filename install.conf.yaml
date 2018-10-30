@@ -4,9 +4,11 @@
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
     ~/.gitconfig: gitconfig
+        force: true
     ~/.ssh/config:
         path: ssh/config
         create: true
     ~/.zshrc: zshrc
-
-
+        force: true
+    ~/.hyper.js: hyper
+        force: true
