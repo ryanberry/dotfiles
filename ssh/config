@@ -1,0 +1,12 @@
+
+# SourceTree Generated
+Host ryanberry
+HostName GitHub
+PreferredAuthentications publickey
+IdentityFile /Users/ryan/.ssh/ryanberry_GitHub
+# --------------------
+
+
+Host 198.211.110.19
+User root
+PubkeyAuthentication=no
